@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeVerse | Static Anime Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">AnimeVerse</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#featured">Featured</a>
+      <a href="#genres">Genres</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true">
+        <div class="moon"></div>
+        <div class="stars star-one"></div>
+        <div class="stars star-two"></div>
+        <div class="stars star-three"></div>
+        <div class="tower tower-one"></div>
+        <div class="tower tower-two"></div>
+        <div class="tower tower-three"></div>
+        <div class="hero-character">
+          <span class="hair"></span>
+          <span class="face"></span>
+          <span class="scarf"></span>
+          <span class="body"></span>
+          <span class="sword"></span>
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">New season streaming guide</p>
+        <h1>Discover worlds built from courage, friendship, and neon skies.</h1>
+        <p class="hero-copy">
+          Explore hand-picked anime picks, genre collections, and weekly watch drops in one clean static website.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#featured">Start Watching</a>
+          <a class="button ghost" href="#schedule">This Week</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="featured">
+      <div class="section-heading">
+        <p class="eyebrow">Top picks</p>
+        <h2>Featured Anime</h2>
+      </div>
+      <div class="anime-grid">
+        <article class="anime-card card-sunrise">
+          <div class="poster">
+            <span class="poster-badge">9.4</span>
+          </div>
+          <div class="card-body">
+            <h3>Blade of Dawn</h3>
+            <p>A young guardian chases a fallen star through a kingdom of ancient spirits.</p>
+            <span>Action / Fantasy</span>
+          </div>
+        </article>
+
+        <article class="anime-card card-ocean">
+          <div class="poster">
+            <span class="poster-badge">8.9</span>
+          </div>
+          <div class="card-body">
+            <h3>Sky Harbor Club</h3>
+            <p>Five pilots rebuild their floating school while racing through storm-lit skies.</p>
+            <span>Adventure / Slice of Life</span>
+          </div>
+        </article>
+
+        <article class="anime-card card-night">
+          <div class="poster">
+            <span class="poster-badge">9.1</span>
+          </div>
+          <div class="card-body">
+            <h3>Neon Shrine</h3>
+            <p>A shrine maiden protects a futuristic city from dreams that become real.</p>
+            <span>Mystery / Supernatural</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section genre-section" id="genres">
+      <div class="section-heading">
+        <p class="eyebrow">Browse by mood</p>
+        <h2>Popular Genres</h2>
+      </div>
+      <div class="genre-list">
+        <a href="#">Shonen</a>
+        <a href="#">Isekai</a>
+        <a href="#">Romance</a>
+        <a href="#">Mecha</a>
+        <a href="#">Comedy</a>
+        <a href="#">Thriller</a>
+      </div>
+    </section>
+
+    <section class="section schedule-section" id="schedule">
+      <div class="section-heading">
+        <p class="eyebrow">Weekly drops</p>
+        <h2>Release Schedule</h2>
+      </div>
+      <div class="schedule">
+        <div class="schedule-row">
+          <strong>Monday</strong>
+          <span>Blade of Dawn</span>
+          <em>Episode 07</em>
+        </div>
+        <div class="schedule-row">
+          <strong>Wednesday</strong>
+          <span>Sky Harbor Club</span>
+          <em>Episode 04</em>
+        </div>
+        <div class="schedule-row">
+          <strong>Friday</strong>
+          <span>Neon Shrine</span>
+          <em>Episode 10</em>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="join">
+    <div>
+      <h2>Ready for your next arc?</h2>
+      <p>Bookmark AnimeVerse and keep your watchlist fresh every week.</p>
+    </div>
+    <a class="button primary" href="#">Back to Top</a>
+  </footer>
+</body>
+</html>
